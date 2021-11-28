@@ -9,7 +9,7 @@ const chosenImg = img[Math.floor(Math.random()*img.length)];
 const bg = document.createElement('img');
 
 
-bg.src = `img/${chosenImg}`
+bg.src = `./img/${chosenImg}`
 
 document.body.appendChild(bg);
 
