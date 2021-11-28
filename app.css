@@ -1,0 +1,113 @@
+* {
+  font-family: "Noto Serif KR", serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 85%;
+}
+
+.clock {
+  font-size: 180px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 180px;
+  color: white;
+  text-shadow: 2px 2px 6px gray;
+}
+#login {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#login input {
+  margin-left: 70px;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  text-shadow: 2px 2px 6px gray;
+}
+
+#login button {
+  letter-spacing: 3px;
+  margin-left: 10px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  background: transparent;
+  text-shadow: 2px 2px 6px gray;
+}
+#login input::placeholder {
+  color: white;
+}
+
+#greeting {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 550;
+  color: white;
+  text-shadow: 2px 2px 6px gray;
+}
+
+.weather {
+  margin-top: 30px;
+  margin-right: 50px;
+  font-size: 20px;
+  text-align: right;
+  color: aliceblue;
+}
+
+#todo-form {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#todo-form input {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(19, 18, 18);
+  color: black;
+  text-shadow: 2px 2px 6px gray;
+}
+
+#todo-form input::placeholder {
+  color: black;
+}
+
+#todo-list {
+  text-align: center;
+  font-size: 28px;
+}
+
+#todo-list li {
+  font-weight: 400;
+  letter-spacing: 2px;
+  list-style: none;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 6px gray;
+  color: rgb(17, 14, 14);
+}
+
+#todo-list button {
+  background: transparent;
+  border: none;
+  text-shadow: 2px 2px 6px gray;
+}

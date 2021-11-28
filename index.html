@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
 <style src="app.css"></style>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheets" href="app.css" />
+    <link rel="stylesheet" href="app.css" />
 </head>
 <body>
+    <div class="weather">
+        <span></span>
+        <span></span>
+    </div>
+
     <div class="clock">
         <div></div>
     </div>
 
-    <div class="todo">
-        <span>
-            <input type="text" placeholder="write todo-list">
-            <button>DO IT</button>
-        </span>
-    </div>
+    <form id="login" class="hidden">
+        <input required maxlength="15" type="text" placeholder="what is your name?" />
+        <button>✔</button>
+    </form>
+    <h2 id="greeting" class="hidden"></h2>
+
+    
+
+    <form id="todo-form">
+        <input type="text" placeholder="Write a todo-list" />
+    </form>
+    <ul id="todo-list"></ul>
 
 
     <script src="src/clock.js"></script>
